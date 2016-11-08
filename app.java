@@ -34,7 +34,7 @@ public class app {
       String adverb = console.readLine("Enter an adjective:  ");
       String verb = console.readLine("Enter a verb ending in -ing:  ");
 
-      console.printf("Your TreeStory:\n--------------\n");
+      console.printf("Your Madlib:\n--------------\n");
       console.printf("%s is a %s %s.  ", name, adjective, noun);
       console.printf("They are always %s %s.\n", adverb, verb);
 

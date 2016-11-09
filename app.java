@@ -31,12 +31,12 @@ public class app {
         console.printf("That language is not allowed.  Exiting. \n\n");
         System.exit(0);
       }
-      String adverb = console.readLine("Enter an adjective:  ");
+      String adverb = console.readLine("Enter an adverb ending in -ly:  ");
       String verb = console.readLine("Enter a verb ending in -ing:  ");
 
       console.printf("Your Madlib:\n--------------\n");
-      console.printf("%s is a %s %s.  ", name, adjective, noun);
-      console.printf("They are always %s %s.\n", adverb, verb);
+      console.printf("%s is a %s %s, who is %s years old. ", name, adjective, noun, age);
+      console.printf("Bears are always %s %s.\n", adverb, verb);
 
     }
 

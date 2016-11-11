@@ -35,11 +35,15 @@ public class app {
       String verb1 = console.readLine("Enter a verb ending in -ing:  ");
       String verb2 = console.readLine("Enter a verb: ");
       String verb3 = console.readLine("Enter another verb: ");
+      String noun2 = console.readLine("Enter a plural noun: ");
+      String properNoun = console.readLine("Enter a proper noun: ");
+      String place = console.readLine("Enter a place: ");
 
       console.printf("Your Madlib:\n--------------\n");
       console.printf("%s is a %s %s, who is %s years old. ", name, adjective, noun, age);
       console.printf("Bears are always %s %s.\n", adverb, verb1);
       console.printf("Make sure to always %s.\n It would be awful if you didn't %s properly.\n", verb2,verb3);
+      console.printf("I love %s. ")
     }
 
 }

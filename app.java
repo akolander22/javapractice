@@ -36,14 +36,15 @@ public class app {
       String verb2 = console.readLine("Enter a verb: ");
       String verb3 = console.readLine("Enter another verb: ");
       String noun2 = console.readLine("Enter a plural noun: ");
-      String properNoun = console.readLine("Enter a proper noun: ");
+      String person = console.readLine("Enter a person: ");
+      String number = console.readLine("Enter a number: ");
       String place = console.readLine("Enter a place: ");
 
       console.printf("Your Madlib:\n--------------\n");
       console.printf("%s is a %s %s, who is %s years old. ", name, adjective, noun, age);
       console.printf("Bears are always %s %s.\n", adverb, verb1);
       console.printf("Make sure to always %s.\n It would be awful if you didn't %s properly.\n", verb2,verb3);
-      console.printf("I love %s. ")
+      console.printf("I love %s.\n  %s has been living for %s years in %s.\n", noun2,person,number,place);
     }
 
 }
